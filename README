@@ -1,0 +1,20 @@
+ASSESSMENT
+
+Write an automated test script to verify the login functionality of a web application. 
+The test script should:
+ •  Open the web application in a browser.
+ •  Enter valid credentials (username and password) and submit the login form. 
+ •  Verify that the user is successfully logged in by checking for a specific element or page title.
+
+
+Web Application      : Salesforce
+Automation framework : Playwright
+Language             : Typescript
+
+Commands :
+
+install playwright -> npm install -D @playwright/test@latest
+run the test       -> Navigate to the pages folder -> npx playwright test loginPage.spec.ts
+show report        -> npx playwright show-report
+
+Reference : https://playwright.dev/docs/intro
